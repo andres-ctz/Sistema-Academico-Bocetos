@@ -1,0 +1,52 @@
+p {
+    color: blue;
+}
+.P-Importante {
+    color: red;
+    font-size: 20px;
+}
+
+#vision {
+    color: green;
+    font-size: 30px;
+    font-style: italic;
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#Sobre-Escuela {
+    font-size: 18px;
+    color: orange;
+    text-align: justify;
+    line-height: 2;
+}
+
+#Frase-Depurar {
+    font-size: 22px;
+    color: purple;
+    font-weight: bold;
+    text-decoration: line-through;
+    letter-spacing: 3px;
+} 
+
+h1 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+a{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin:10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
