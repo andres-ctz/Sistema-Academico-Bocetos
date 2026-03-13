@@ -1,52 +1,113 @@
-p {
-    color: blue;
+/*fondo de pantalla*/
+#body {
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
 }
+
 .P-Importante {
-    color: red;
+    color: black;
     font-size: 20px;
 }
-
-#vision {
-    color: green;
-    font-size: 30px;
-    font-style: italic;
-}
-
+/*cambios en el texto*/
 * {
     font-family: Arial, sans-serif;
 }
-
 h2 {
     font-weight: bold;
 }
 
-#Sobre-Escuela {
-    font-size: 18px;
-    color: orange;
-    text-align: justify;
-    line-height: 2;
+/*estilos para el nav*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(60, 1, 1, 0.23);
+}
+#headerh1 {
+    text-transform: uppercase;
+    color: black;
+    text-shadow: none;
 }
 
-#Frase-Depurar {
-    font-size: 22px;
-    color: purple;
-    font-weight: bold;
-    text-decoration: line-through;
-    letter-spacing: 3px;
-} 
-
-h1 {
+.menu-item:hover{
+    color: black;
+    background-color: #333333;
+    border-radius: 5px;
+    border-left: #dedede solid 2px;
+    border-right: #dedede solid 2px;
+}
+#logoescuela {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#logoescuela:hover {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    text-decoration: underline;
 }
 
 
 a{
     display: inline-block;
-    background-color: black;
-    color: white;
+    color: black;
     text-decoration: none;
     margin:10px;
+    margin-block-start: 10px;
     padding: 10px 20px;
     border-radius: 5px;
+    border-left: #333333 solid 2px;
+    border-right: #333333 solid 2px;
 }
+a:hover {
+    display: inline-block;
+    color: white;
+    background-color: #333333;
+    text-decoration: none;
+    margin:10px;
+    margin-block-start: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-left: #dedede solid 2px;
+    border-right: #dedede solid 2px;
+}
+
+/*estilos para el header*/
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(60, 1, 1, 0.23);
+    margin: 20px;
+}
+
+/*estilos para el section*/
+section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(60, 1, 1, 0.23);
+    margin: 20px;
+}
+
+
+/*estilos para el footer*/
+footer {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(60, 1, 1, 0.23);
+}
+
